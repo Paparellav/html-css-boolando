@@ -19,8 +19,7 @@ html {
 
 .row {
     width: 100%;
-    margin-bottom: 3em;
-    
+    margin-bottom: 3em;  
 }
 
 /* product */
@@ -35,48 +34,38 @@ html {
     width: 100%;
 }
 
-.discount {
-    background-color: #b1072e;
+/* tag sostenibilità */
+.tag {
     font-weight: bold;
     display: inline-block;
-    width: 90px;
-    height: 40px;
     color: white;
     text-align: center;
     line-height: 40px;
     position: absolute;
     bottom: 150px;
+}
+.discount {
+    background-color: #b1072e;
+    width: 90px;
+    height: 40px;  
     left: 0;
 }
-
 .sostenibilit {
     background-color: #05734e;
-    font-weight: bold;
-    display: inline-block;
     width: 200px;
     height: 40px;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    position: absolute;
     bottom: 150px;
     left: 95px;
 }
 
 .sostenibilit-2 {
     background-color: #05734e;
-    font-weight: bold;
-    display: inline-block;
     width: 200px;
-    height: 40px;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    position: absolute;
     bottom: 150px;
     left: 0px;
 }
 
+/* cuoricino */
 .heart {
     width: 60px;
     height: 60px;
@@ -88,10 +77,10 @@ html {
     background-color: white;
 }
 
+/* descrizione prodotto */
 .description {
     position: relative;
     top: 20px;
-
 }
 
 .red-price {
@@ -103,4 +92,17 @@ html {
     color: black;
     font-weight: normal;
     text-decoration: line-through;
+}
+
+.product .img-front {
+    position: relative;
+}
+.product .img-back {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.product:hover .img-back {
+    display: block;
 }
