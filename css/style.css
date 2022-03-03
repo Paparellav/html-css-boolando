@@ -13,8 +13,8 @@ html {
 /* main */
 .container {
     /* border: 2px solid red; */
-    width: 80%;
-    margin: 2em auto;
+    width: 70%;
+    margin: 3em auto;
 }
 
 .row {
@@ -63,6 +63,20 @@ html {
     left: 95px;
 }
 
+.sostenibilit-2 {
+    background-color: #05734e;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 150px;
+    left: 0px;
+}
+
 .heart {
     width: 60px;
     height: 60px;
@@ -78,4 +92,15 @@ html {
     position: relative;
     top: 20px;
 
+}
+
+.red-price {
+    color: red;
+    font-weight: bold;
+}
+
+.line-through {
+    color: black;
+    font-weight: normal;
+    text-decoration: line-through;
 }
