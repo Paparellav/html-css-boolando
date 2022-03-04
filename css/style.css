@@ -14,7 +14,7 @@ html {
 .container {
     /* border: 2px solid red; */
     width: 70%;
-    margin: 3em auto;
+    margin: 0 auto;
 }
 
 .row {
@@ -97,12 +97,15 @@ html {
     text-decoration: line-through;
 }
 
-.product .img-back {
+/* sezione hover */
+.img-back {
     display: none;
-    position: absolute;
-    top: 0;
+}
+
+.product:hover .img-front {
+    display: none;
 }
 
 .product:hover .img-back {
-    display: block;
+    display: inline-block;
 }
